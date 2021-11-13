@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Login</h1><h2>Your Account</h2>
+        <form name="login" onSubmit="backend()">
+            <input id="username" class="border"  type="text" placeholder="Username" name="username"><span id="span_user"></span><br>
+            <input id="email" class="border" type="email" placeholder="Your email"  name="email"> <span id="span_email"></span><br>
+            <input id="password" class="border" type="password" placeholder="Password"  name="password">
+			<button onClick="return show()">show</button>
+            <input type="submit" class="submit" value="Login">
+        </form>
+        <a href="#" class="pass">Forgot password?</a><br>
+        <a href="#" class="account">Create Account</a>
+		<script>
+			function show()
+			{
+				document.getElementById('password').type = 'text';
+			}
+			function backend ( ) 
+			{
+				var username = document.getElementById('username');
+				var email = document.getElementById('email');
+				
+				var newuser = document.form
+				if( username = '' && email = '')
+				   { document.getElementById('span_user').innerHTML = "یوزر نیم را کامل کنید"
+				     document.getElementById('span_email').innerHTML = " ایمیل را کامل کنید"
+				   
+				   }
+			}
+		</script>
+    </div>
+</body>
+</html>
