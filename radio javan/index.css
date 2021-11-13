@@ -1,0 +1,120 @@
+/* CSS Document */
+body{
+	background-color: black;
+	display: inline-block;
+}
+.navbar{
+	z-index: +1;
+	display: inline-block;
+	margin: 10px;
+	border: 1px solid rgba(231,231,231,0.28);
+	height: 40px;
+	width: 1300px;
+	padding: 10px;
+	position: fixed;
+	background-color: black;
+	border-radius: 10px;
+}
+.a-navbar{
+	text-align: right;
+	color: white;
+	margin: 10px;
+	float: right;
+	opacity: 0.9;
+}
+.a-navbar:hover{
+	opacity: 1;
+	transform: 
+		scale(1.1);
+}
+.big-picture{
+	position: relative;
+	display: inline-block;
+	top: 80px;
+	margin: 20px;	
+}
+.big-picture img{
+	height: 300px;
+	border-radius: 10px;
+}
+.parents img:hover{
+	transform: 
+		scale(1.03)
+}
+.parents img{
+	border: 1px solid rgba(127,112,113,0.68);
+
+}
+div{display: inline-block}
+h3{
+	position: relative;
+	color: white;
+	opacity: 0.6;
+	margin-top: -10px;
+		margin-left: 10px;
+}
+h4{
+	color: white;
+	opacity: 0.8;
+	margin-top: -10px;
+	margin-left: 10px;
+}
+.playlists{
+	height: 300px;
+	position: relative;
+	top: 60px;
+	margin: 10px;
+}
+.playlists h3{
+	opacity: 1;
+}
+.playlists img{
+	height: 200px;
+	margin: 5px;
+	border-radius: 10px;
+	position: relative;
+	top : -90px;
+}
+.playlists h4{
+	position: relative;
+	top: -90px;
+	margin-bottom: -150px;
+}
+.RJ-Exclusive h3{
+	opacity: 1;
+	position: relative;
+	top: 40px;
+
+}
+.parents img{
+	height: 200px;
+	margin: 5px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	margin-top: 40px;
+
+}
+.Popular-Artists div{
+	margin-top: -90px;
+}
+.Popular-Artists img{
+	border-radius: 50%;
+}
+.footer a{
+	text-decoration: none;
+	color: white;
+	margin: 10px;
+	font-size: 20px;
+	position: relative;
+	left: 290px;
+}
+.footer a:hover{
+	color: red;
+}
+h5{
+	opacity: 0.5;
+	color: white;
+	text-align: center;
+	position: relative;
+	left: 290px;
+}
