@@ -1,0 +1,18 @@
+/* CSS Document */
+.a{ background-image: url("../../aa.png"); height: 80px; margin: 0px 10px;}
+.nav{text-decoration: none; color: white; padding: 5px 5px 0px 5px;opacity: 0.6}
+a:hover{opacity: 1}
+.b{ background-color: #d50000; height: 20px; padding: 10px; width: auto}
+img{float: right;width: 150px; height: 130px;border-radius: 5px;margin-left: 10px}
+h5{text-align: right;}
+p{text-align: right}
+.c{width: 49%;height: 130px;display: inline-block;margin-top: 10px}
+h3{padding: 0px 20px}
+h3{padding: 0px 90px}
+.d{direction: rtl}
+.d button{border: #BFBFBF; border-radius: 10px;height: 25px;margin: 2px;}
+.d{background-color:rgba(0,0,0,0.11);height: 30px;padding-right: 90px}
+button:hover{background-color: black;opacity: 1;color: white}
+img:hover{
+	transform:   scale(1,1.2);
+}
